@@ -10,12 +10,7 @@
 .subtitle {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
-  color: #333;
-  text-align: center;
-}
-
-p {
-  text-align: center;
+  color: #333
 }
 
 body {
@@ -103,6 +98,12 @@ section {
   margin-left: 150px;
 }
 
+.about-img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 /* FLIP CARD */
 .flip-card {
   background-color: transparent;
@@ -142,9 +143,5 @@ section {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
-}
-
-.center {
-  text-align: center;
 }
 /**/
